@@ -13,7 +13,7 @@
 <script>
 
 const manifestUri =
-    'https://vod4-dash-cdn1-vp-cdn-viaplay-tv.akamaized.net/db030e1/20764021-1685086851490.ism/index.mpd?filter=(FourCC%3D%3D%22AVC1%22%26%26systemBitrate%3C5200000%26%26systemBitrate%3E0%26%26framerate%3C60%26%26maxHeight%3C721)%7C%7C(type%3D%3D%22audio%22%26%26FourCC%3D%3D%22AACL%22)%7C%7C(type%3D%3D%22textstream%22%26%26(systemLanguage%3D%3D%22pol%22))&amp;CMCD=cid%3D%2220764021%22%2Cot%3Dm%2Csf%3Dd%2Csid%3D%22ngBa2Q1VEygh4ZLvUNmhKtwGDFkNvd3eWqnUAcNA28U%22%2Csu';
+    'url';
 
 async function init() {
   // When using the UI, the player is made automatically by the UI object.
@@ -25,10 +25,10 @@ async function init() {
 player.configure({
   drm: {
     clearKeys: {
-    '0fb5f6e971f651768d1932110dee641e': '80625839722a7dddd3d0325cac4c8462',
-    'b3b5758a27975120b39a219f5ae10926': '2dcf1e088df254031e15c01d9dd90653', 
-    'dfd57b3118ec542d9f45b73d5cbcbf09': '3cf17c6e7529f2896c269713eeeb6868',            
-    '644559f3cc3d5b95a8b9e1ba7d6ee00f': 'a7539f8a2122bc9dd8c1caa00fac98f7'
+    '0000': '0000',
+    '0000': '0000', 
+    '00000': '00000',            
+    '00000': '00000'
     }
   }
 });
