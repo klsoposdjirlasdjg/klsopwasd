@@ -13,7 +13,7 @@
 <script>
 
 const manifestUri =
-    'url';
+    'https://live2-dash-cdn1-cf-mp-cdn-viaplay-tv.akamaized.net/ea144cc916ce49c6a6177f6c0e68b5cf/start/1692464080/end/1692507600/index.mpd?aws.manifestfilter=video_codec%3Ah264%3Bvideo_bitrate%3A0-5200000%3Bvideo_framerate%3A25-60%3Bvideo_height%3A1-721%3Baudio_codec%3AAACL%3Baudio_language%3Aswe&amp;CMCD=ot%3Dm%2Csf%3Dd%2Csid%3D%22Kghg18YYYq2lhjwDhT2jOCx7iVriD_AMZZJ3XCcPMUc%22%2Csu';
 
 async function init() {
   // When using the UI, the player is made automatically by the UI object.
@@ -25,10 +25,10 @@ async function init() {
 player.configure({
   drm: {
     clearKeys: {
-    '0000': '0000',
-    '0000': '0000', 
-    '00000': '00000',            
-    '00000': '00000'
+    '29e5c9c0cd615c1f96cfbc39cee1d7c8': '246cc9c96ba1e85ed53b082f4a45b5ae',
+    '41cfe4078a5d5e439b041a94367cd90f': 'bb6f19e0e20e34efdec791b736e24277', 
+    '8e00b28ba4d65095b9836845008ad90f': 'c6bd93afdac8614b0f45bb3688c2e88e',            
+    '4a211683b4425e859b638db9f6c6231b': 'c5db254c75afcaea23a00e6ef4075192'
     }
   }
 });
